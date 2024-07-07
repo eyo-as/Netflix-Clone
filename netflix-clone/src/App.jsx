@@ -1,12 +1,13 @@
 import React from "react";
+import Home from "./pages/Home/Home";
 import "./css/index.css";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
+    <>
+      <Home />
+    </>
   );
-}
+};
 
 export default App;
