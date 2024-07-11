@@ -5,4 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   base: "/Netflix-Clone/netflix-clone",
   plugins: [react()],
+  define: {
+    "process.env": process.env,
+  },
 });
